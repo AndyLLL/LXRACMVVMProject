@@ -1,0 +1,5 @@
+XSym
+0065
+4c8d2cafa63232f178f25042978533fd
+../../../ReactiveCocoa/ReactiveCocoa/NSObject+RACSelectorSignal.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

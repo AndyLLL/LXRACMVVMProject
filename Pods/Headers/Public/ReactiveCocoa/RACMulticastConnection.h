@@ -1,0 +1,5 @@
+XSym
+0061
+7980d110c4eff9111e8bdbfa6380259c
+../../../ReactiveCocoa/ReactiveCocoa/RACMulticastConnection.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

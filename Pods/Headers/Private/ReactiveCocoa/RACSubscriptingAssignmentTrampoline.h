@@ -1,0 +1,5 @@
+XSym
+0074
+416a7e992f96a6af4e9f22d4605f2fce
+../../../ReactiveCocoa/ReactiveCocoa/RACSubscriptingAssignmentTrampoline.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

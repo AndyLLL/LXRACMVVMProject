@@ -1,0 +1,74 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - PNChart (0.8.9):
+    - UICountingLabel (~> 1.2.0)
+  - pop (1.0.10)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - Shimmer (1.0.2)
+  - UICountingLabel (1.2.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Masonry
+  - MJRefresh
+  - PNChart
+  - pop
+  - ReactiveCocoa
+  - SDWebImage
+  - Shimmer
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Masonry
+    - MJRefresh
+    - PNChart
+    - pop
+    - ReactiveCocoa
+    - SDWebImage
+    - Shimmer
+    - UICountingLabel
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 1123a16f6cc4784d610379feb57cdb782922ed45
+
+COCOAPODS: 1.5.0

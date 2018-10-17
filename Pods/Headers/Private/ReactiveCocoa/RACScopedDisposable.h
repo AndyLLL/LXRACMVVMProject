@@ -1,0 +1,5 @@
+XSym
+0058
+7ce6ef99cbf3ced8ecb010f52f28ab5d
+../../../ReactiveCocoa/ReactiveCocoa/RACScopedDisposable.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

@@ -1,0 +1,5 @@
+XSym
+0053
+1e3122ba3de98b92df7e469a89e261a8
+../../../ReactiveCocoa/ReactiveCocoa/RACErrorSignal.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

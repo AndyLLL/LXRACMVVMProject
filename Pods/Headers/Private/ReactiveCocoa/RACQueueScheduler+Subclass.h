@@ -1,0 +1,5 @@
+XSym
+0065
+d109362c069919eadded8bb22e995baf
+../../../ReactiveCocoa/ReactiveCocoa/RACQueueScheduler+Subclass.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

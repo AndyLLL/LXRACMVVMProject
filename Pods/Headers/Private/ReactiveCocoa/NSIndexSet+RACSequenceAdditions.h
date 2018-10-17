@@ -1,0 +1,5 @@
+XSym
+0070
+3d4e828761d35d60d73fc12f18e902cb
+../../../ReactiveCocoa/ReactiveCocoa/NSIndexSet+RACSequenceAdditions.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

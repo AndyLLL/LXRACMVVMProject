@@ -1,0 +1,5 @@
+XSym
+0072
+0d296e8121c849395364e6a4cc11aa80
+../../../ReactiveCocoa/ReactiveCocoa/MKAnnotationView+RACSignalSupport.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

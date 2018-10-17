@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C516ECB4E66499939E64A1C /* libPods-LXMVVMProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5186A90EC8B11CB79896A0 /* libPods-LXMVVMProject.a */; };
+		A141625420F83EC200C4E3E7 /* LXBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A141625120F83EC200C4E3E7 /* LXBaseView.m */; };
+		A141625520F83EC200C4E3E7 /* LXBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A141625220F83EC200C4E3E7 /* LXBaseTableViewCell.m */; };
+		A141625820F8404C00C4E3E7 /* LXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A141625720F8404C00C4E3E7 /* LXBaseModel.m */; };
+		A141625B20F840B900C4E3E7 /* LXHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A141625A20F840B900C4E3E7 /* LXHttpManager.m */; };
+		A141625E20F852B700C4E3E7 /* LXBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A141625D20F852B700C4E3E7 /* LXBaseEntity.m */; };
+		A17B60A520F4560100646EE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60A420F4560100646EE0 /* AppDelegate.m */; };
+		A17B60A820F4560100646EE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60A720F4560100646EE0 /* ViewController.m */; };
+		A17B60AB20F4560100646EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17B60A920F4560100646EE0 /* Main.storyboard */; };
+		A17B60AD20F4560D00646EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17B60AC20F4560D00646EE0 /* Assets.xcassets */; };
+		A17B60B020F4560D00646EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17B60AE20F4560D00646EE0 /* LaunchScreen.storyboard */; };
+		A17B60B320F4560D00646EE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60B220F4560D00646EE0 /* main.m */; };
+		A17B60BD20F4560D00646EE0 /* LXMVVMProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60BC20F4560D00646EE0 /* LXMVVMProjectTests.m */; };
+		A17B60C820F4560D00646EE0 /* LXMVVMProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60C720F4560D00646EE0 /* LXMVVMProjectUITests.m */; };
+		A17B60D620F4567D00646EE0 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = A17B60D520F4567D00646EE0 /* podfile */; };
+		A17B60E020F4583A00646EE0 /* LXBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60DF20F4583A00646EE0 /* LXBaseViewModel.m */; };
+		A17B60E320F45B1A00646EE0 /* LXTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60E220F45B1A00646EE0 /* LXTableViewModel.m */; };
+		A17B60E620F45B9800646EE0 /* LXTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60E520F45B9800646EE0 /* LXTableViewCellViewModel.m */; };
+		A17B60EB20F4689500646EE0 /* LXPagingTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60EA20F4689500646EE0 /* LXPagingTableViewModel.m */; };
+		A17B60EE20F487AC00646EE0 /* LXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60ED20F487AC00646EE0 /* LXBaseViewController.m */; };
+		A17B60F120F48A3500646EE0 /* LXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60F020F48A3500646EE0 /* LXTableViewController.m */; };
+		A17B60F720F4A8FF00646EE0 /* LXPagingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B60F620F4A8FF00646EE0 /* LXPagingTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17B60B920F4560D00646EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17B609820F4560100646EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17B609F20F4560100646EE0;
+			remoteInfo = LXMVVMProject;
+		};
+		A17B60C420F4560D00646EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17B609820F4560100646EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17B609F20F4560100646EE0;
+			remoteInfo = LXMVVMProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C5186A90EC8B11CB79896A0 /* libPods-LXMVVMProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXMVVMProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A141625020F83EC200C4E3E7 /* LXBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseTableViewCell.h; sourceTree = "<group>"; };
+		A141625120F83EC200C4E3E7 /* LXBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseView.m; sourceTree = "<group>"; };
+		A141625220F83EC200C4E3E7 /* LXBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseTableViewCell.m; sourceTree = "<group>"; };
+		A141625320F83EC200C4E3E7 /* LXBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseView.h; sourceTree = "<group>"; };
+		A141625620F8404C00C4E3E7 /* LXBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBaseModel.h; sourceTree = "<group>"; };
+		A141625720F8404C00C4E3E7 /* LXBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBaseModel.m; sourceTree = "<group>"; };
+		A141625920F840B900C4E3E7 /* LXHttpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHttpManager.h; sourceTree = "<group>"; };
+		A141625A20F840B900C4E3E7 /* LXHttpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHttpManager.m; sourceTree = "<group>"; };
+		A141625C20F852B700C4E3E7 /* LXBaseEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBaseEntity.h; sourceTree = "<group>"; };
+		A141625D20F852B700C4E3E7 /* LXBaseEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBaseEntity.m; sourceTree = "<group>"; };
+		A17B60A020F4560100646EE0 /* LXMVVMProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXMVVMProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17B60A320F4560100646EE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A17B60A420F4560100646EE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A17B60A620F4560100646EE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A17B60A720F4560100646EE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A17B60AA20F4560100646EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A17B60AC20F4560D00646EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17B60AF20F4560D00646EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A17B60B120F4560D00646EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17B60B220F4560D00646EE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A17B60B820F4560D00646EE0 /* LXMVVMProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXMVVMProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17B60BC20F4560D00646EE0 /* LXMVVMProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMVVMProjectTests.m; sourceTree = "<group>"; };
+		A17B60BE20F4560D00646EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17B60C320F4560D00646EE0 /* LXMVVMProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXMVVMProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17B60C720F4560D00646EE0 /* LXMVVMProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMVVMProjectUITests.m; sourceTree = "<group>"; };
+		A17B60C920F4560D00646EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17B60D520F4567D00646EE0 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		A17B60DE20F4583A00646EE0 /* LXBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBaseViewModel.h; sourceTree = "<group>"; };
+		A17B60DF20F4583A00646EE0 /* LXBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBaseViewModel.m; sourceTree = "<group>"; };
+		A17B60E120F45B1A00646EE0 /* LXTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXTableViewModel.h; sourceTree = "<group>"; };
+		A17B60E220F45B1A00646EE0 /* LXTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXTableViewModel.m; sourceTree = "<group>"; };
+		A17B60E420F45B9800646EE0 /* LXTableViewCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXTableViewCellViewModel.h; sourceTree = "<group>"; };
+		A17B60E520F45B9800646EE0 /* LXTableViewCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXTableViewCellViewModel.m; sourceTree = "<group>"; };
+		A17B60E820F45DDA00646EE0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A17B60E920F4689500646EE0 /* LXPagingTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXPagingTableViewModel.h; sourceTree = "<group>"; };
+		A17B60EA20F4689500646EE0 /* LXPagingTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPagingTableViewModel.m; sourceTree = "<group>"; };
+		A17B60EC20F487AC00646EE0 /* LXBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBaseViewController.h; sourceTree = "<group>"; };
+		A17B60ED20F487AC00646EE0 /* LXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBaseViewController.m; sourceTree = "<group>"; };
+		A17B60EF20F48A3500646EE0 /* LXTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXTableViewController.h; sourceTree = "<group>"; };
+		A17B60F020F48A3500646EE0 /* LXTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXTableViewController.m; sourceTree = "<group>"; };
+		A17B60F520F4A8FF00646EE0 /* LXPagingTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXPagingTableViewController.h; sourceTree = "<group>"; };
+		A17B60F620F4A8FF00646EE0 /* LXPagingTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPagingTableViewController.m; sourceTree = "<group>"; };
+		D3A3B5CD2760EE34098D00D5 /* Pods-LXMVVMProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMVVMProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXMVVMProject/Pods-LXMVVMProject.debug.xcconfig"; sourceTree = "<group>"; };
+		D7F7DA90D2B8644A78926082 /* Pods-LXMVVMProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMVVMProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXMVVMProject/Pods-LXMVVMProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17B609D20F4560100646EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C516ECB4E66499939E64A1C /* libPods-LXMVVMProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17B60B520F4560D00646EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17B60C020F4560D00646EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DEC34A17FE6F3048CF34D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3A3B5CD2760EE34098D00D5 /* Pods-LXMVVMProject.debug.xcconfig */,
+				D7F7DA90D2B8644A78926082 /* Pods-LXMVVMProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55CB1062E5944C83A2FA7FE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C5186A90EC8B11CB79896A0 /* libPods-LXMVVMProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A17B609720F4560100646EE0 = {
+			isa = PBXGroup;
+			children = (
+				A17B60D520F4567D00646EE0 /* podfile */,
+				A17B60A220F4560100646EE0 /* LXMVVMProject */,
+				A17B60BB20F4560D00646EE0 /* LXMVVMProjectTests */,
+				A17B60C620F4560D00646EE0 /* LXMVVMProjectUITests */,
+				A17B60A120F4560100646EE0 /* Products */,
+				2DEC34A17FE6F3048CF34D7C /* Pods */,
+				55CB1062E5944C83A2FA7FE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A17B60A120F4560100646EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17B60A020F4560100646EE0 /* LXMVVMProject.app */,
+				A17B60B820F4560D00646EE0 /* LXMVVMProjectTests.xctest */,
+				A17B60C320F4560D00646EE0 /* LXMVVMProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17B60A220F4560100646EE0 /* LXMVVMProject */ = {
+			isa = PBXGroup;
+			children = (
+				A17B60E720F45DCB00646EE0 /* Helper */,
+				A17B60D720F457DD00646EE0 /* Core */,
+				A17B60A920F4560100646EE0 /* Main.storyboard */,
+				A17B60AC20F4560D00646EE0 /* Assets.xcassets */,
+				A17B60AE20F4560D00646EE0 /* LaunchScreen.storyboard */,
+				A17B60B220F4560D00646EE0 /* main.m */,
+			);
+			path = LXMVVMProject;
+			sourceTree = "<group>";
+		};
+		A17B60BB20F4560D00646EE0 /* LXMVVMProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17B60BC20F4560D00646EE0 /* LXMVVMProjectTests.m */,
+				A17B60BE20F4560D00646EE0 /* Info.plist */,
+			);
+			path = LXMVVMProjectTests;
+			sourceTree = "<group>";
+		};
+		A17B60C620F4560D00646EE0 /* LXMVVMProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A17B60C720F4560D00646EE0 /* LXMVVMProjectUITests.m */,
+				A17B60C920F4560D00646EE0 /* Info.plist */,
+			);
+			path = LXMVVMProjectUITests;
+			sourceTree = "<group>";
+		};
+		A17B60D720F457DD00646EE0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A17B60D820F457DD00646EE0 /* BaseVC */,
+				A17B60D920F457DD00646EE0 /* BaseViewModel */,
+				A17B60DA20F457DD00646EE0 /* Entity */,
+				A17B60DB20F457DD00646EE0 /* HttpManager */,
+				A17B60DC20F457DD00646EE0 /* Model */,
+				A17B60DD20F457DD00646EE0 /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A17B60D820F457DD00646EE0 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				A17B60EC20F487AC00646EE0 /* LXBaseViewController.h */,
+				A17B60ED20F487AC00646EE0 /* LXBaseViewController.m */,
+				A17B60EF20F48A3500646EE0 /* LXTableViewController.h */,
+				A17B60F020F48A3500646EE0 /* LXTableViewController.m */,
+				A17B60F520F4A8FF00646EE0 /* LXPagingTableViewController.h */,
+				A17B60F620F4A8FF00646EE0 /* LXPagingTableViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		A17B60D920F457DD00646EE0 /* BaseViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A17B60DE20F4583A00646EE0 /* LXBaseViewModel.h */,
+				A17B60DF20F4583A00646EE0 /* LXBaseViewModel.m */,
+				A17B60E120F45B1A00646EE0 /* LXTableViewModel.h */,
+				A17B60E220F45B1A00646EE0 /* LXTableViewModel.m */,
+				A17B60E920F4689500646EE0 /* LXPagingTableViewModel.h */,
+				A17B60EA20F4689500646EE0 /* LXPagingTableViewModel.m */,
+				A17B60E420F45B9800646EE0 /* LXTableViewCellViewModel.h */,
+				A17B60E520F45B9800646EE0 /* LXTableViewCellViewModel.m */,
+			);
+			path = BaseViewModel;
+			sourceTree = "<group>";
+		};
+		A17B60DA20F457DD00646EE0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A141625C20F852B700C4E3E7 /* LXBaseEntity.h */,
+				A141625D20F852B700C4E3E7 /* LXBaseEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A17B60DB20F457DD00646EE0 /* HttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				A141625920F840B900C4E3E7 /* LXHttpManager.h */,
+				A141625A20F840B900C4E3E7 /* LXHttpManager.m */,
+			);
+			path = HttpManager;
+			sourceTree = "<group>";
+		};
+		A17B60DC20F457DD00646EE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A141625620F8404C00C4E3E7 /* LXBaseModel.h */,
+				A141625720F8404C00C4E3E7 /* LXBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A17B60DD20F457DD00646EE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A141625020F83EC200C4E3E7 /* LXBaseTableViewCell.h */,
+				A141625220F83EC200C4E3E7 /* LXBaseTableViewCell.m */,
+				A141625320F83EC200C4E3E7 /* LXBaseView.h */,
+				A141625120F83EC200C4E3E7 /* LXBaseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A17B60E720F45DCB00646EE0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A17B60E820F45DDA00646EE0 /* PrefixHeader.pch */,
+				A17B60A320F4560100646EE0 /* AppDelegate.h */,
+				A17B60A420F4560100646EE0 /* AppDelegate.m */,
+				A17B60A620F4560100646EE0 /* ViewController.h */,
+				A17B60A720F4560100646EE0 /* ViewController.m */,
+				A17B60B120F4560D00646EE0 /* Info.plist */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17B609F20F4560100646EE0 /* LXMVVMProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17B60CC20F4560D00646EE0 /* Build configuration list for PBXNativeTarget "LXMVVMProject" */;
+			buildPhases = (
+				2655D51881D25C0ED2A5128C /* [CP] Check Pods Manifest.lock */,
+				A17B609C20F4560100646EE0 /* Sources */,
+				A17B609D20F4560100646EE0 /* Frameworks */,
+				A17B609E20F4560100646EE0 /* Resources */,
+				7E9C78D6ABE7BFF1A47A45D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXMVVMProject;
+			productName = LXMVVMProject;
+			productReference = A17B60A020F4560100646EE0 /* LXMVVMProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17B60B720F4560D00646EE0 /* LXMVVMProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17B60CF20F4560D00646EE0 /* Build configuration list for PBXNativeTarget "LXMVVMProjectTests" */;
+			buildPhases = (
+				A17B60B420F4560D00646EE0 /* Sources */,
+				A17B60B520F4560D00646EE0 /* Frameworks */,
+				A17B60B620F4560D00646EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17B60BA20F4560D00646EE0 /* PBXTargetDependency */,
+			);
+			name = LXMVVMProjectTests;
+			productName = LXMVVMProjectTests;
+			productReference = A17B60B820F4560D00646EE0 /* LXMVVMProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A17B60C220F4560D00646EE0 /* LXMVVMProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17B60D220F4560D00646EE0 /* Build configuration list for PBXNativeTarget "LXMVVMProjectUITests" */;
+			buildPhases = (
+				A17B60BF20F4560D00646EE0 /* Sources */,
+				A17B60C020F4560D00646EE0 /* Frameworks */,
+				A17B60C120F4560D00646EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17B60C520F4560D00646EE0 /* PBXTargetDependency */,
+			);
+			name = LXMVVMProjectUITests;
+			productName = LXMVVMProjectUITests;
+			productReference = A17B60C320F4560D00646EE0 /* LXMVVMProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17B609820F4560100646EE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = AndyLLL;
+				TargetAttributes = {
+					A17B609F20F4560100646EE0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A17B60B720F4560D00646EE0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A17B609F20F4560100646EE0;
+					};
+					A17B60C220F4560D00646EE0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A17B609F20F4560100646EE0;
+					};
+				};
+			};
+			buildConfigurationList = A17B609B20F4560100646EE0 /* Build configuration list for PBXProject "LXMVVMProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17B609720F4560100646EE0;
+			productRefGroup = A17B60A120F4560100646EE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17B609F20F4560100646EE0 /* LXMVVMProject */,
+				A17B60B720F4560D00646EE0 /* LXMVVMProjectTests */,
+				A17B60C220F4560D00646EE0 /* LXMVVMProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17B609E20F4560100646EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17B60B020F4560D00646EE0 /* LaunchScreen.storyboard in Resources */,
+				A17B60AD20F4560D00646EE0 /* Assets.xcassets in Resources */,
+				A17B60D620F4567D00646EE0 /* podfile in Resources */,
+				A17B60AB20F4560100646EE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17B60B620F4560D00646EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17B60C120F4560D00646EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2655D51881D25C0ED2A5128C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXMVVMProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9C78D6ABE7BFF1A47A45D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LXMVVMProject/Pods-LXMVVMProject-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXMVVMProject/Pods-LXMVVMProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17B609C20F4560100646EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17B60A820F4560100646EE0 /* ViewController.m in Sources */,
+				A141625E20F852B700C4E3E7 /* LXBaseEntity.m in Sources */,
+				A141625420F83EC200C4E3E7 /* LXBaseView.m in Sources */,
+				A141625520F83EC200C4E3E7 /* LXBaseTableViewCell.m in Sources */,
+				A17B60B320F4560D00646EE0 /* main.m in Sources */,
+				A17B60E620F45B9800646EE0 /* LXTableViewCellViewModel.m in Sources */,
+				A17B60A520F4560100646EE0 /* AppDelegate.m in Sources */,
+				A17B60E320F45B1A00646EE0 /* LXTableViewModel.m in Sources */,
+				A141625B20F840B900C4E3E7 /* LXHttpManager.m in Sources */,
+				A17B60F720F4A8FF00646EE0 /* LXPagingTableViewController.m in Sources */,
+				A17B60F120F48A3500646EE0 /* LXTableViewController.m in Sources */,
+				A141625820F8404C00C4E3E7 /* LXBaseModel.m in Sources */,
+				A17B60EB20F4689500646EE0 /* LXPagingTableViewModel.m in Sources */,
+				A17B60E020F4583A00646EE0 /* LXBaseViewModel.m in Sources */,
+				A17B60EE20F487AC00646EE0 /* LXBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17B60B420F4560D00646EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17B60BD20F4560D00646EE0 /* LXMVVMProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17B60BF20F4560D00646EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17B60C820F4560D00646EE0 /* LXMVVMProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17B60BA20F4560D00646EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17B609F20F4560100646EE0 /* LXMVVMProject */;
+			targetProxy = A17B60B920F4560D00646EE0 /* PBXContainerItemProxy */;
+		};
+		A17B60C520F4560D00646EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17B609F20F4560100646EE0 /* LXMVVMProject */;
+			targetProxy = A17B60C420F4560D00646EE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A17B60A920F4560100646EE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17B60AA20F4560100646EE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A17B60AE20F4560D00646EE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17B60AF20F4560D00646EE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17B60CA20F4560D00646EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A17B60CB20F4560D00646EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17B60CD20F4560D00646EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A3B5CD2760EE34098D00D5 /* Pods-LXMVVMProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9DYZ75ZDT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXMVVMProject/Helper/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LXMVVMProject/Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndyLLL.LXMVVMProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A17B60CE20F4560D00646EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F7DA90D2B8644A78926082 /* Pods-LXMVVMProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9DYZ75ZDT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXMVVMProject/Helper/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LXMVVMProject/Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndyLLL.LXMVVMProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A17B60D020F4560D00646EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9DYZ75ZDT;
+				INFOPLIST_FILE = LXMVVMProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndyLLL.LXMVVMProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXMVVMProject.app/LXMVVMProject";
+			};
+			name = Debug;
+		};
+		A17B60D120F4560D00646EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9DYZ75ZDT;
+				INFOPLIST_FILE = LXMVVMProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndyLLL.LXMVVMProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXMVVMProject.app/LXMVVMProject";
+			};
+			name = Release;
+		};
+		A17B60D320F4560D00646EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9DYZ75ZDT;
+				INFOPLIST_FILE = LXMVVMProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndyLLL.LXMVVMProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXMVVMProject;
+			};
+			name = Debug;
+		};
+		A17B60D420F4560D00646EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9DYZ75ZDT;
+				INFOPLIST_FILE = LXMVVMProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndyLLL.LXMVVMProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXMVVMProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17B609B20F4560100646EE0 /* Build configuration list for PBXProject "LXMVVMProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17B60CA20F4560D00646EE0 /* Debug */,
+				A17B60CB20F4560D00646EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17B60CC20F4560D00646EE0 /* Build configuration list for PBXNativeTarget "LXMVVMProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17B60CD20F4560D00646EE0 /* Debug */,
+				A17B60CE20F4560D00646EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17B60CF20F4560D00646EE0 /* Build configuration list for PBXNativeTarget "LXMVVMProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17B60D020F4560D00646EE0 /* Debug */,
+				A17B60D120F4560D00646EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17B60D220F4560D00646EE0 /* Build configuration list for PBXNativeTarget "LXMVVMProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17B60D320F4560D00646EE0 /* Debug */,
+				A17B60D420F4560D00646EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17B609820F4560100646EE0 /* Project object */;
+}

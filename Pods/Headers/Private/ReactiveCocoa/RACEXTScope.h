@@ -1,0 +1,5 @@
+XSym
+0058
+fbe4a49c9d7fdc7ca6dfe5bbcc3960bd
+../../../ReactiveCocoa/ReactiveCocoa/extobjc/RACEXTScope.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

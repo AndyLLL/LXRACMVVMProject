@@ -1,0 +1,5 @@
+XSym
+0055
+3c2842b305cb84631c5d084003e33ec0
+../../../ReactiveCocoa/ReactiveCocoa/RACGroupedSignal.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
